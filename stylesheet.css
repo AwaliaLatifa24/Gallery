@@ -2,42 +2,43 @@
 body {
   font-family: "Monaco";
   font-size: 30px;
+  font-color: #000000;
 }
 
 li {
   list-style: none;
   float: right;
-  padding: 30px 20px;
+  padding: 30px 30px;
 }
 
-header {
-  background-color: #cc99ff;
-  color: #ffffff;
-  height: 90px;
+.header {
+  background-color: #e6ccff;
+  font-color: #ffff00;
+  height: 80px;
 }
 
 .header-logo {
   float: left;
-  font-size: 15px;
-  padding: 20px 30px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
-main {
+lesson-wrapper {
   padding: 80px 100px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .img {
-  width: 60px;
+  max.width: 60%;
   height: auto;
   padding-bottom: 100px;
 }
 
-footer {
-  background-color: #cc99ff;
-  color: #fff;
-  height: 40px;
-  padding-top: 20px;
+.footer {
+  background-color: #e6ccff;
+  font-color: #ffff00;
+  font-size: 20px;
+  height: 90px;
 }
 </style>
