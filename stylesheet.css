@@ -17,11 +17,10 @@ li {
   height: 80px;
 }
 
-.header-logo {
+.header-logo img {
   float: left;
-  font-size: 20px;
-  padding-right: 10px;
-  padding-top: 20px;
+  height: 80px;
+  widht: 80px;
 }
 
 .lesson-wrapper {
